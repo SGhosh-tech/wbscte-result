@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WEST BENGAL STATE COUNCIL OF TECHNICAL & VOCATIONAL EDUCATION AND SKILL DEVELOPMENT</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Font Awesome -->
+<link rel="stylesheet" type="text/css" href="https://exam.webscte.co.in/assets/assets_jexpo_voclet/font-awesome/css/font-awesome.min.css">
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" type="text/css" href="https://exam.webscte.co.in/assets/assets_jexpo_voclet/bootstrap/css/bootstrap.min.css">
+<!-- Your custom styles -->
+<link rel="stylesheet" type="text/css" href="https://exam.webscte.co.in/assets/assets_jexpo_voclet/css/style.css">
+<!-- Your custom responsive styles -->
+<link rel="stylesheet" type="text/css" href="https://exam.webscte.co.in/assets/assets_jexpo_voclet/css/responsive.css">
+<!-- Your custom alert styles -->
+<link rel="stylesheet" type="text/css" href="https://exam.webscte.co.in/assets/assets_jexpo_voclet/css/jquery.alertable.css">
+<link rel="shortcut icon" href="https://exam.webscte.co.in/assets/images/logo.png" type="image/x-icon" /></head>
+<body>
+<!-- navbar section -->
+<nav class="custom-navbar">
+	<div class="container">
+		<div class="nav-brand">
+			<a href="https://exam.webscte.co.in/select-post">
+				<div class="brand-logo">
+					<img src="https://exam.webscte.co.in/assets/assets_jexpo_voclet/images/logo.png" alt="">
+				</div>
+				<div class="brand-text">
+					<h2>West Bengal State Council of Technical &amp; Vocational Education and Skill Development</h2>
+					<p><em>(A Statutory Body under Government of West Bengal Act XXVI of 2013)</em></p>
+					<p style="font-weight: bold;">Technical Education Division</p>
+					<!--<p>{Erstwhile West Bengal State Council of Technical Education}</p>-->
+				</div>
+			</a>
+		</div>
+	</div>
+</nav>
+<!-- navbar section end-->
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 text-center">
+			<br>			
+			<p><img src="assets/images/404.jpg" alt=""></p>
+			<h2><i class="fa fa-exclamation-triangle" style="color:red"></i>
+				Page not found <small>404 error</small>
+			</h2>
+			<p>Well, this is embarrassing.
+				<br>
+			</p>
+			<p><a href="https://webscte.co.in/">Click here</a> to visit our home page</p>
+		</div>
+	</div>
+</div>
+
+</body>
+<!-- JQuery -->
+<script src="https://exam.webscte.co.in/assets/assets_jexpo_voclet/js/jquery.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="https://exam.webscte.co.in/assets/assets_jexpo_voclet/bootstrap/js/bootstrap.min.js"></script>
+<!-- Custom Alert JavaScript -->
+<script src="https://exam.webscte.co.in/assets/assets_jexpo_voclet/js/parsley.min.js"></script>
+<!-- Parsley Form Validation Core JavaScript -->
+<script src="https://exam.webscte.co.in/assets/assets_jexpo_voclet/js/jquery.alertable.js"></script>
+<!-- Custom script -->
+<script>
+$(function() {
+    $('.to-uppercase').keyup(function() {
+        this.value = this.value.toUpperCase();
+    });
+});
+</script>
+
+<script>
+function isNumber(evt) {
+    evt = (evt) ? evt : window.event;
+    var charCode = (evt.which) ? evt.which : evt.keyCode;
+
+    if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+        return false;
+    }
+    return true;
+}
+function inDecimal(evt){
+    if ((evt.which != 46 || evt.value.indexOf('.') != -1) && (evt.which < 48 || evt.which > 57)) {
+        //event it's fine
+    }
+    var input = evt.value;
+    if ((input.indexOf('.') != -1) && (input.substring(input.indexOf('.')).length > 2)) {
+        return false;
+    }
+}
+</script></html>
