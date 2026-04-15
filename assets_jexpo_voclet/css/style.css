@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+body {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.form-control,
+[class*="btn-"] {
+    border-radius: 0px;
+    border-width: 1px;
+}
+
+.form-group .control-label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.custom-navbar {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px 2px rgb(160, 160, 160);
+}
+
+.custom-navbar a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-brand {
+    float: left;
+}
+
+.nav-menu {
+    float: right;
+}
+
+.brand-logo,
+.brand-text {
+    float: left;
+}
+
+.brand-logo {
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.brand-text h2 {
+    font-size: 22px;
+}
+
+.brand-text p {
+    font-size: 13px;
+}
+
+.brand-text h2,
+.brand-text p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.custom-navbar:after,
+.nav-brand:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.page-bg {
+    background: url('../images/index-bg.jpg') no-repeat;
+    min-height: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.login-container {
+    margin: 0px auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    background: rgba(31, 31, 31, 0.82);
+    padding: 30px;
+}
+
+.login-container-blue {
+    margin: 0px auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    background: rgb(133 216 255 / 62%);
+    padding: 30px;
+}
+
+.login-form {
+    padding: 20px;
+    border: 1px solid #FFFFFF;
+    border-top-width: 3px;
+}
+
+.login-form label {
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.login-form input:not(input[type="submit"]) {
+    margin-bottom: 5px;
+    border-width: 1px;
+    border-color: #a4a4a4;
+}
+
+.login-form [class*="btn-"] {
+    width: 150px;
+}
+
+.login-form h2 {
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.login-form h2 .fa {
+    padding-right: 15px;
+    font-size: 28px;
+}
+
+.login-form-blue {
+    padding: 20px;
+    border: 1px solid #000000;
+    border-top-width: 3px;
+}
+
+.login-form-blue label {
+    color: #000000;
+    font-weight: 500;
+}
+
+.login-form-blue input:not(input[type="submit"]) {
+    margin-bottom: 5px;
+    border-width: 1px;
+    border-color: #a4a4a4;
+}
+
+.login-form-blue [class*="btn-"] {
+    width: 150px;
+}
+
+.login-form-blue h2 {
+    font-size: 22px;
+    color: #000000;
+}
+
+.login-form-blue h2 .fa {
+    padding-right: 15px;
+    font-size: 28px;
+}
+
+.forget-pass,
+.forget-pass:hover {
+    font-style: italic;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.page-box,
+.form-box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #0D47A1;
+    border-top-width: 3px;
+    padding: 5px;
+}
+
+.form-box-header {
+    text-align: center;
+}
+
+.form-box {
+    border-top-width: 1px !important;
+}
+
+.form-steps {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-steps a {
+    color: #4DB6AC;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: not-allowed;
+    display: block;
+}
+
+.form-steps a.completed {
+    color: #004D40;
+    cursor: pointer;
+}
+
+.form-steps a.completed:hover {
+    color: #1976D2;
+}
+
+.form-steps a.active {
+    color: #2196F3;
+    cursor: wait;
+}
+
+.form-steps a .fa {
+    font-size: 36px;
+}
+
+.form-box h2 {
+    margin-top: 5px;
+    color: #FFFFFF;
+    background: #0D47A1;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.parsley-errors-list {
+    padding-left: 0;
+    background: #FF0000;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.parsley-errors-list li {
+    list-style-type: none !important;
+}
+
+.inline-age {
+    width: 60px !important;
+    display: inline-block;
+    margin-right: 34px;
+}
+
+.inline-age:last-child {
+    margin-right: 0px;
+}
+
+.photoBox img {
+    width: 138px;
+    height: 177px;
+    border: 1px solid #000000;
+}
+
+.signBox img {
+    width: 240px;
+    height: 45px;
+    border: 1px solid #000000;
+}
+
+.ltiBox img {
+    width: 240px;
+    height: 110px;
+    border: 1px solid #000000;
+}
+
+span.txtShow {
+    /* line-height: 3em; */
+    font-size: 17px;
+    font-weight: 400;
+    /* padding-top: 22em; */
+    display: block;
+    padding-top: 6px;
+}
+
+.preCaption {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.preCaption h3 {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.preCaption p span {
+    font-weight: 500;
+    text-decoration: underline;
+    background: #fff600;
+    color: #FF0000;
+    padding: 1px 10px;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.mend {
+    color: #ff0000;
+}

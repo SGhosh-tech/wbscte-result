@@ -1,0 +1,31 @@
+@media (max-width: 991px) {
+    .login-form:first-child {
+        margin-bottom: 20px;
+    }
+    .login-container {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 660px) {
+    .brand-text h2 {
+        font-size: 18px;
+    }
+    .brand-text p {
+        display: none;
+    }
+    .brand-logo,
+    .brand-text {
+        float: none;
+    }
+    .brand-logo {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 450px) {
+    .login-form [class*="btn-"] {
+        width: 48%;
+    }
+}
