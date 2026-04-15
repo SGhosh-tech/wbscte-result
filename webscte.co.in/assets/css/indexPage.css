@@ -1,0 +1,30 @@
+/* indexPage*/
+
+.carousel-inner>.item {
+    height: 72vh;
+}
+
+.carousel-inner>.item>img {
+    width: 100%;
+    height: 72vh;
+}
+
+.carousel {}
+
+@media only screen and (max-width: 600px) {
+    .carousel-inner>.item {
+        height: 39vh;
+    }
+    .carousel-inner>.item>img {
+        width: 100%;
+        height: 39vh;
+    }
+}
+
+.fa-home {
+    color: #FFFFFF;
+    font-size: 3.1vh;
+    vertical-align: top;
+    padding-left: 3vh;
+    padding-top: 0.25vh
+}
